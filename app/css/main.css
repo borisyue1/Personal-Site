@@ -39,6 +39,7 @@ li a {
 #header{
     color: white;
     text-align: center;
+    margin-top: 18%;
 }
 div h1 {
     font-size: 80px;
@@ -46,6 +47,10 @@ div h1 {
 }
 div h2 {
     font-weight: 400;
+}
+
+.fa {
+    color:white;
 }
 
 

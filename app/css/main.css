@@ -1,0 +1,53 @@
+body {
+    background: #24C6DC; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #24C6DC , #514A9D); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #24C6DC , #514A9D);
+    font-family: "Roboto Slab";
+}
+
+#nav-bar {
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    height: 60px;
+    z-index: 9999;
+    list-style-type: none;
+    font-size: 17px;
+    color: white;
+
+}
+
+li {
+    margin-right: 4%;
+    margin-top: 1.2%;
+    float: right;
+}
+#name {
+    float: left;
+    margin-left: 1.5%;
+    font-size: 17px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+#header{
+    color: white;
+    text-align: center;
+}
+div h1 {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+div h2 {
+    font-weight: 400;
+}
+
+
+
+

@@ -15,7 +15,7 @@ body {
     height: 60px;
     z-index: 9999;
     list-style-type: none;
-    font-size: 17px;
+    font-size: 18px;
     color: white;
 
 }
@@ -28,12 +28,16 @@ li {
 #name {
     float: left;
     margin-left: 1.5%;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 li a {
     text-decoration: none;
     color: white;
+}
+
+li a:hover {
+    color: #514A9D;
 }
 
 #header{
@@ -44,13 +48,16 @@ li a {
 div h1 {
     font-size: 80px;
     margin-bottom: 0;
+    text-shadow: 0.5px 0.5px 2px black;
 }
 div h2 {
     font-weight: 400;
+    text-shadow: 0.2px 0.2px 2px black;
 }
-
-.fa {
+/*scroll down icon
+*/.fa {
     color:white;
+    text-shadow: 0.2px 0.2px 1px black;
 }
 
 

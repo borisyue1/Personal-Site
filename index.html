@@ -8,25 +8,37 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="./app/css/main.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.css">
 		<script src="https://use.fontawesome.com/fa1a9f4d46.js"></script>
 	</head>
 	<body>
-	     <ul id="nav-bar">
-	     	 <li id="name">Boris Yue</li>
-	         <li><a href="#contact">Contact</a></li>
-	         <li><a href="#resume">Resume</a></li>
-	         <li><a href="#about">About</a></li>
-	     </ul>
+		<div id="home">
+			<ul class="nav-bar">
+		     	 <li id="name"><i>Boris Yue</i></li>
+		         <li><a href="#contact">Contact</a></li>
+		         <li><a href="#resume">Resume</a></li>
+		         <li><a href="#about" id="about-tag">About</a></li>
+		         <li><a href="#home" id="home-tag">Home</a></li>
+		     </ul>
+		     <div id="home-header">
+		     	<h1>Hey, I'm Boris!</h1>
+		     	<h2>Learn more about me.</h2>
+		     	<a href="#about">
+		     		<i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i>
+		     	</a>
+		     </div>
+		</div>	
 
-	     <div id="header">
-	     	<h1>Hey, I'm Boris!</h1>
-	     	<h2>Learn more about me.</h2>
-	     	<a href="#about">
-	     		<i class="fa fa-chevron-circle-down fa-2x" aria-hidden="true"></i>
-	     	</a>
-	     </div>
+		<div id="about">
+			<div id="about-header">
+				<h1><span>About Me</span></h1>
+			</div>
+		</div>
+	    
+
 
 	     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.2/jquery.fullPage.min.js"></script>
 	     <script type="text/javascript" src="./app/js/main.js"></script>
 
 	</body>

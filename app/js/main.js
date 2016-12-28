@@ -3,7 +3,7 @@ $('a[href^="#"]').on('click', function(event) {//smooth scrolling
     if( target.length ) {
         event.preventDefault();
         $('html, body').stop().animate({
-            scrollTop: target.offset().top - 25
+            scrollTop: target.offset().top - 50
         }, 1000);
     }
 });
@@ -26,9 +26,12 @@ function checkPosition(stop, mainbottom){
     if(stop < mainbottom - 100){
         $('#home-tag').addClass('active');
     }
+    else if(stop > mainbottom * 2 - 100){
+        $('#resume-tag').addClass('active');
+    } 
     else if(stop > mainbottom - 100){
         $('#about-tag').addClass('active');
-    } 
+    }
 
 }
 

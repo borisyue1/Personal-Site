@@ -1,0 +1,24 @@
+/*when screen is small, edit boris yue title
+*/#name {
+	margin-left: -5%;
+	font-size: 18px;
+}
+
+.nav-bar{
+	height: 5.5%
+}
+.image-collage {
+	left: 0;
+	width: 70%;
+	margin: auto;
+}
+
+#about-header {
+	top: 70%;
+	left: 0;
+	margin: auto;
+	width: 80%;
+}
+#resume {
+	top: 230%;
+}

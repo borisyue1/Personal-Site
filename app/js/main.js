@@ -26,12 +26,16 @@ function checkPosition(stop, mainbottom){
     if(stop < mainbottom - 100){
         $('#home-tag').addClass('active');
     }
-    else if(stop > mainbottom * 2 - 100){
+    else if(stop > mainbottom * 2 - 150){
         $('#resume-tag').addClass('active');
     } 
     else if(stop > mainbottom - 100){
         $('#about-tag').addClass('active');
     }
 
+}
+function dropDown(){
+    var x = $('#drop-down');
+    $(x).toggleClass("responsive");
 }
 

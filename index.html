@@ -7,17 +7,23 @@
 		<meta name="description" content="Boris Yue Personal Website">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="./app/css/main.css">
+		<link rel="stylesheet" href="./app/css/main.css">
+		<link rel="stylesheet" media="screen and (max-width: 1000px)" href="./app/css/main-medium.css">
+		<link rel="stylesheet" media="screen and (max-width: 680px)" href="./app/css/main-small.css">
+		<link rel="stylesheet" media="screen and (max-width: 479px)" href="./app/css/main-phone.css">
 		<script src="https://use.fontawesome.com/fa1a9f4d46.js"></script>
 	</head>
 	<body>
 		<div id="home">
-			<ul class="nav-bar">
+			<ul class="nav-bar" id="drop-down">
 		     	 <li id="name"><i>Boris Yue</i></li>
 		         <li><a href="#contact" id="contact-tag">Contact</a></li>
 		         <li><a href="#resume" id="resume-tag">Resume</a></li>
 		         <li><a href="#about" id="about-tag">About</a></li>
 		         <li><a href="#home" id="home-tag">Home</a></li>
+		         <li class="icon">
+    				<a href="javascript:void(0);" onclick="dropDown()">&#9776;</a>
+  				</li>
 		     </ul>
 		     <div id="home-header">
 		     	<h1>Hey, I'm Boris!</h1>

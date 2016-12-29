@@ -1,0 +1,58 @@
+/*collapse all buttons except boris yue
+*/
+ul.nav-bar li:not(:first-child) {
+	display: none;
+}
+
+/*make dropdown icon visible
+*/
+ul.nav-bar li.icon {
+    float: right;
+    display: inline-block;
+}
+
+ul.nav-bar.responsive {
+	position: fixed;
+}
+ul.nav-bar.responsive li.icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+ul.nav-bar.responsive li {
+	float: none;
+	display: inline;
+}
+ul.nav-bar.responsive li a {
+	display: block;
+	text-align: left;
+
+}
+.nav-bar{
+	height: 6.5%
+}
+#name {
+	margin-left: 0%;
+}
+
+#home-header {
+	margin-top: 30%;
+}
+.image-collage {
+	position: relative;
+	top: 0;
+	margin: auto;
+	width: 42%;
+
+}
+#about-header {
+	position: relative;
+	top: 61%;
+	margin: auto;
+	width: 80%;
+}
+
+#resume {
+	top: 213%;
+}
+

@@ -1,10 +1,11 @@
+
+
 $('a[href^="#"]').on('click', function(event) {//smooth scrolling
     var target = $(this.getAttribute('href'));
-    if( target.length ) {
+    if( target.length) {
         event.preventDefault();
         $('html, body').stop().animate({
-            scrollTop: target.offset().top - 50
-        }, 1000);
+            scrollTop: target.offset().top}, 1000);
     }
 });
 
@@ -15,21 +16,21 @@ var mainbottom = $('#home').height();
 $(window).on('scroll',function(){
     var stop = Math.round($(window).scrollTop());
     if (stop > mainbottom - 100) {
-        $('.nav-bar').addClass('past-home');
+        $('.nav-bar').addClass('gradient');
     } else {
-        $('.nav-bar').removeClass('past-home');
+        $('.nav-bar').removeClass('gradient');
     }
     checkPosition(stop, mainbottom);
 });
 function checkPosition(stop, mainbottom){
     $('li a').removeClass('active');
-    if(stop < mainbottom - 100){
+    if(stop < mainbottom - 50){
         $('#home-tag').addClass('active');
     }
-    else if(stop > mainbottom * 2 - 150){
+    else if(stop > mainbottom * 2 - 70){
         $('#resume-tag').addClass('active');
     } 
-    else if(stop > mainbottom - 100){
+    else if(stop > mainbottom - 50){
         $('#about-tag').addClass('active');
     }
 

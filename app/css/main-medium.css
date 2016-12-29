@@ -1,5 +1,5 @@
 #home-header {
-	margin-top: 25%;
+	margin-top: 23%;
 }
 
 .nav-bar{
@@ -7,16 +7,20 @@
 }
 
 .image-collage {
-	margin-top: -5%;
+	margin-top: -6%;
 	margin-left: 5%;
 	width: 42%;
 
 }
 #about-header {
-	margin-top: 5%;
+	margin-top: 10%;
 	width: 40%;
+	font-size: 42px;
+}
+#about-header p {
+	font-size: 18px;
 }
 
 #resume {
-	top: 188%;
+	top: 200%;
 }

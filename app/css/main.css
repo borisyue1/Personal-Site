@@ -1,10 +1,13 @@
-body, html {height: 100%; font-family: "Roboto Slab";}
+body, html {height: 100%; font-family: "Roboto Slab", sans-serif;}
 
 
-#home {
+.gradient {
     background: #24C6DC; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #24C6DC , #514A9D); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #24C6DC , #514A9D);
+}
+
+#home {
     position: absolute;
     top: 0;
     left: 0;
@@ -26,13 +29,6 @@ body, html {height: 100%; font-family: "Roboto Slab";}
     letter-spacing: 0.6px;
 }
 
-.past-home {
-   /* animation: nav-bar-appear 0.8s;
-    animation-timing-function: linear;
-*/  background: #24C6DC; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #24C6DC , #514A9D); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #24C6DC , #514A9D);
-}
 
 /*when page is at certain position, navbar element is highlighted*/
 .active {
@@ -62,6 +58,7 @@ li a:hover {
     color: #47418b;
 }
 
+
 /*dropdown menu*/
 ul.nav-bar li.icon {
     display: none;
@@ -70,7 +67,7 @@ ul.nav-bar li.icon {
 #home-header{
     color: white;
     text-align: center;
-    margin-top: 18%;
+    margin-top: 17%;
 }
 #home-header h1 {
     font-size: 80px;
@@ -98,7 +95,7 @@ ul.nav-bar li.icon {
 #about-header {
     color: black;
     width: 35%;
-    margin-top: 8%;
+    margin-top: 12%;
     margin-left: 52%;
     text-align: center;
     font-size: 47px;
@@ -117,7 +114,7 @@ span {
 }
 
 
- .image-collage {
+.image-collage {
     line-height: 0;
     -webkit-column-count: 5;
     -webkit-column-gap: 0px;
@@ -129,7 +126,7 @@ span {
     margin-top: -8%;
     margin-left: 13%;
 /*    rounded thumbnail */   
-    border: 1px solid #d9d9d9;
+    border: 1px solid #bfbfbf;
     border-radius: 4px;
     padding: 5px;
 } 
@@ -141,10 +138,35 @@ span {
 
 #resume {
     position: absolute;
-    top: 190%;
+    left: 0;
+    top: 198%;
     height: 100%;
     width: 100%;
 }
+
+.resume-header {
+    height: 22%;
+    width: 100%;
+}
+
+.resume-header h1{
+    position: relative;
+    text-align: center;
+    top: 25%; 
+    color: white;
+    font-size: 42px;
+    text-shadow: 0.5px 0.5px 2px black;
+}
+
+.resume-header hr {
+    position: relative;
+    top: 10%;
+    width: 7%;
+    height: 3px;
+    background:white;
+    box-shadow: 0.5px 0.5px 1px black;
+}
+
 
 
 

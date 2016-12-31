@@ -41,15 +41,20 @@ ul.nav-bar.responsive li a {
 .image-collage {
 	position: relative;
 	top: 0;
-	margin: 3% auto;
-	width: 42%;
+	margin: 5% auto;
+	width: 47%;
 
 }
-#about-header {
+.about-header {
 	position: relative;
 	top: 72%;
 	margin: auto;
 	width: 80%;
+	font-size: 40px;
+}
+
+.about-header p {
+	font-size: 15px;
 }
 
 #resume {

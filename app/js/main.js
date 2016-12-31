@@ -1,6 +1,5 @@
 
-
-$('a[href^="#"]').on('click', function(event) {//smooth scrolling
+$('.nav-bar a[href^="#"]').on('click', function(event) {//smooth scrolling
     var target = $(this.getAttribute('href'));
     if( target.length) {
         event.preventDefault();
@@ -22,6 +21,7 @@ $(window).on('scroll',function(){
     }
     checkPosition(stop, mainbottom);
 });
+//highlight an a tag based on scroll position
 function checkPosition(stop, mainbottom){
     $('li a').removeClass('active');
     if(stop < mainbottom - 50){
@@ -39,4 +39,28 @@ function dropDown(){
     var x = $('#drop-down');
     $(x).toggleClass("responsive");
 }
+
+$(document).ready(function(){
+    $(function() {
+        $('.jcarousel').jcarousel({wrap: 'both'});
+        $('.jcarousel-control-next').on('click', function(event){
+            event.preventDefault();
+            $('.jcarousel').jcarousel('scroll', '+=1');
+        });
+        $('.jcarousel-control-prev').on('click', function(event){
+            event.preventDefault();
+            $('.jcarousel').jcarousel('scroll', '-=1');
+        });
+
+        $('.jcarousel-pagination')
+            .on('jcarouselpagination:active', 'a', function() {
+                $(this).addClass('active');
+            })
+            .on('jcarouselpagination:inactive', 'a', function() {
+                $(this).removeClass('active');
+            })
+            .jcarouselPagination();
+    });
+});
+    
 

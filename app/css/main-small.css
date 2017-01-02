@@ -28,8 +28,10 @@ ul.nav-bar.responsive li a {
 	text-align: left;
 
 }
-.nav-bar{
-	height: 6.5%
+
+
+.fa {
+	margin-top: 1.5%;
 }
 #name {
 	margin-left: 0%;
@@ -41,20 +43,62 @@ ul.nav-bar.responsive li a {
 .image-collage {
 	position: relative;
 	top: 0;
-	margin: 5% auto;
+	margin: 70px auto;
 	width: 47%;
 
 }
 .about-header {
 	position: relative;
-	top: 72%;
+	top: 570px;
 	margin: auto;
-	width: 80%;
+	width: 300px;
 	font-size: 40px;
 }
 
 .about-header p {
+	width: 220%;
+	margin-left: -60%;
+	text-align: center;
 	font-size: 15px;
+}
+@media screen and (max-width:705px) {
+    .image-collage {
+        width: 50%;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width:670px) {
+	.about-header {
+		width: 280px;
+		
+	}
+	.two-lines {
+        height: 32px;
+        border-bottom: 3px solid black;
+    }
+	
+
+    .image-collage {
+        width: 54%;
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width:615px) {
+	.about-header p{
+		width: 150%;
+		margin-left: -26%;
+		
+	}
+    .image-collage {
+        width: 56%;
+        margin-top: 75px;
+    }
+}
+@media screen and (max-width:530px) {
+    .image-collage {
+        width: 62%;
+        margin-top: 85px;
+    }
 }
 
 #resume {

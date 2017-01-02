@@ -1,24 +1,32 @@
+
+
 /*when screen is small, edit boris yue title
 */#name {
 	margin-left: -5%;
-	font-size: 18px;
 }
 
-.nav-bar{
-	height: 5.5%;
-}
+
 .image-collage {
 	left: 0;
 	width: 74%;
-	margin: 10% auto;
+	margin: 60px auto;
 }
 
 .about-header {
 	top: 72%;
 	left: 0;
 	margin: auto;
-	width: 80%;
+	font-size: 35px;
+	width: 280px;
 }
+.about-header p {
+	width: 135%;
+	margin-left: -18%;
+}
+.two-lines {
+    height: 30px;
+    border-bottom: 2px solid black;
+    }
 #resume {
 	top: 230%;
 }

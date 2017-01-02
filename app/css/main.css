@@ -1,4 +1,4 @@
-body, html {height: 100%; font-family: "Roboto Slab", sans-serif; }
+body, html {height: 100%; font-family: "Roboto Slab", sans-serif;}
 
 
 .gradient {
@@ -21,7 +21,7 @@ body, html {height: 100%; font-family: "Roboto Slab", sans-serif; }
     top: 0;
     left: 0;
     right: 0;
-    height: 9%;
+    height: 68px;
     z-index: 9999;
     list-style-type: none;
     font-size: 18px;
@@ -32,30 +32,37 @@ body, html {height: 100%; font-family: "Roboto Slab", sans-serif; }
 
 /*when page is at certain position, navbar element is highlighted*/
 .active {
-    color: #47418b;
+    color: #47418b !important;
+    text-decoration: none !important;
 }
 
-li {
+.nav-bar li {
     margin-right: 4%;
-    margin-top: 1.4%;
+    margin-top: 20px;
     float: right;
 
 }
 #name {
     float: left;
-    margin-top: 1%;
+    margin-top: 14px;
     margin-left: 2%;
     font-size: 23px;
     font-weight: 700;
 }
 
 li a {
-    text-decoration: none;
+    text-decoration: none !important;
     color: white;
+}
+
+/*get rid of annoying bootstrap color change when clicked
+*/li a:visited {
+    color:white;
 }
 
 li a:hover {
     color: #47418b;
+    text-decoration: none;
 }
 
 
@@ -71,12 +78,15 @@ ul.nav-bar li.icon {
 }
 #home-header h1 {
     font-size: 80px;
-    margin-bottom: 0;
+    font-weight: 700;
+    margin-bottom: 2%;
     text-shadow: 0.5px 0.5px 2px black;
 }
 #home-header h2 {
     font-weight: 400;
+    font-size: 25px;
     text-shadow: 0.2px 0.2px 1.5px black;
+    margin-bottom: 1.5%;
 }
 /*scroll down icon
 */#home-header .fa {
@@ -100,20 +110,22 @@ ul.nav-bar li.icon {
 
 .about-header {
     color: black;
-    width: 35%;
-    margin-top: 12%;
-    margin-left: 52%;
+    width: 370px;
+    margin-top: 170px;
+    margin-left: 54%;
     text-align: center;
     font-size: 47px;
 
 }
 
 /*for the two lines*/
-span {
+div > span {
     background-color: white;
     padding: 0 10px;
 }
 .about-header p {
+    width: 500px;
+    margin-left: -40px;
     font-size: 18px;
     text-align: left;
 }
@@ -128,7 +140,7 @@ span {
     column-count: 2;
     column-gap: 0px; 
     width: 33%;
-    margin-top: -8%;
+    margin-top: -110px;
     margin-left: 13%;
 /*    rounded thumbnail */   
     border: 1px solid #bfbfbf;
@@ -139,6 +151,16 @@ span {
 /*   Just in case there are inline attributes 
 */  width: 100%;
     height: auto;
+}
+
+@media screen and (max-width:1200px) {
+    .about-header p {
+        width: 490px;
+    }
+    .image-collage {
+        width: 40%;
+        margin-left: 6%;
+    }
 }
 
 #resume {
@@ -152,33 +174,30 @@ span {
 .resume-header {
     height: 22%;
     width: 100%;
+    margin-bottom: 2%;
 }
 
 .resume-header h1{
     position: relative;
     text-align: center;
     top: 25%; 
+    margin-bottom: 50px;  
     color: white;
-    font-size: 45px;
+    font-size: 42px;
     text-shadow: 0.5px 0.5px 2px black;
 }
 
 .resume-header hr {
     position: relative;
-    top: 10%;
-    width: 7%;
+    width: 70px;
     height: 3px;
     background:white;
     box-shadow: 0.5px 0.5px 1px black;
 }
 
-.experience-header {
-    color: black;
-    width: 25%;
-    margin: 2% auto;
-    text-align: center;
-    font-size: 45px;
-}
+
+
+
 
 
 

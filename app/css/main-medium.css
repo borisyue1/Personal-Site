@@ -2,24 +2,39 @@
 	margin-top: 23%;
 }
 
-.nav-bar{
-	height: 7%
-}
 
 .image-collage {
-	margin-top: -6%;
+	margin-top: -70px;
 	margin-left: 5%;
 	width: 42%;
 
 }
 .about-header {
-	margin-top: 10%;
-	width: 40%;
+	margin-top: 160px;
+	width: 320px;
 	font-size: 42px;
 }
 .about-header p {
-	font-size: 17px;
+	width: 450px;
 }
+
+
+@media screen and (max-width:870px) {
+	.about-header {
+		margin-left: 53%;
+		margin-top: 170px;
+	}
+    .about-header p {
+        width: 370px;
+        margin-left: -20px;
+    }
+    .image-collage {
+        width: 44%;
+        margin-left: 3%;
+    }
+}
+
+
 
 #resume {
 	top: 200%;

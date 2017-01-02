@@ -7,14 +7,12 @@
 		<meta name="description" content="Boris Yue Personal Website">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-	<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="./app/css/main.css">
 		<link rel="stylesheet" media="screen and (max-width: 1000px)" href="./app/css/main-medium.css">
 		<link rel="stylesheet" media="screen and (max-width: 768px)" href="./app/css/main-small.css">
 		<link rel="stylesheet" media="screen and (max-width: 480px)" href="./app/css/main-phone.css">
 		<link rel="stylesheet" type="text/css" href="./app/css/carousel.css">
-		<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"> -->
 		<script src="https://use.fontawesome.com/fa1a9f4d46.js"></script>
 	</head>
 	<body>
@@ -60,25 +58,48 @@
 				<div class="experience-header two-lines">
 					<span>Experience</span>
 				</div>
-				<div class="jcarousel-wrapper">
-	                <div class="jcarousel">
-	                    <ul>
-	                        <li>hello</li>
-	                        <li>hello</li>
-	                    </ul>
-	                </div>
-	                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
-	                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
-	                <p class="jcarousel-pagination"></p>
-            	</div>
+				<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel" data-slide-to="1"></li>
+				    <li data-target="#carousel" data-slide-to="2"></li>
+
+				  </ol>
+
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				      <h1>CalDine</h1>
+				      <p>Shank ribeye doner leberkas, landjaeger cupim chuck bresaola. Sirloin shoulder shankle chicken salami, ribeye tongue beef brisket. Pancetta bacon shoulder strip steak, burgdoggen pork chop jowl brisket pig corned </p>
+				    </div>
+
+				    <div class="item">
+				      <h1>hi</h1>
+				      <p>Shank ribeye doner leberkas, landjaeger cupim chuck bresaola. Sirloin shoulder shankle chicken salami, ribeye tongue beef brisket. Pancetta bacon shoulder strip steak, burgdoggen pork chop jowl brisket pig corned </p>
+				    </div>
+				    <div class="item">
+				      <h1>hi</h1>
+				      <p>Shank ribeye doner leberkas, landjaeger cupim chuck bresaola. Sirloin shoulder shankle chicken salami, ribeye tongue beef brisket. Pancetta bacon shoulder strip steak, burgdoggen pork chop jowl brisket pig corned </p>
+				    </div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
 			</div>
-			
 		</div>
 
-	     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<!-- 	      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script> -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.4/jquery.jcarousel.min.js"></script>
-	     <script type="text/javascript" src="./app/js/main.js"></script>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="./app/js/main.js"></script>
 
 	</body>
 </html>

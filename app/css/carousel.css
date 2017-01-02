@@ -1,113 +1,69 @@
-.jcarousel-wrapper {
-    margin: 2.5% auto;
-    position: relative;
-    border: 1px solid #fff;
-    width: 45%;
-    height: 400px;
-    -webkit-border-radius: 5px;
-       -moz-border-radius: 5px;
-            border-radius: 5px;
-    -webkit-box-shadow: 0 0 2px #999;
-       -moz-box-shadow: 0 0 2px #999;
-            box-shadow: 0 0 2px #999;
+.experience-header {
+    color: black;
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 45px;
+}
+#carousel {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-/** Carousel **/
-
-.jcarousel {
-    position: relative;
-    overflow: hidden;
-}
-
-.jcarousel ul {
-    width: 90%;
-    position: relative;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.jcarousel li {
-    float: left;
+.carousel-inner {
+    text-align: center;
     width: 70%;
+    margin: auto;
 }
 
-/** Carousel Controls **/
 
-.jcarousel-control-prev,
-.jcarousel-control-next {
-    position: absolute;
-    top: 45%;
-    width: 5%;
-    height: 8%;
-    text-align: center;
-    background: #1a8cff;
-    color: #fff;
-    opacity: 0.75;
-    text-decoration: none;
-    text-shadow: 0.5px 0.5px 1px #000;
-    font: 24px/27px Arial, sans-serif;
-    -webkit-border-radius: 30px;
-       -moz-border-radius: 30px;
-            border-radius: 30px;
-    -webkit-box-shadow: 0 0 2px #999;
-       -moz-box-shadow: 0 0 2px #999;
-            box-shadow: 0 0 2px #999;
+.carousel-inner h1 {
+    color: #1a8cff;
+    font-weight: 700;
+}
+.carousel-inner p {
+    color: black;
+    margin-bottom: 13%;
 }
 
-.jcarousel-control-prev {
-    left: -7%;
+.carousel-indicators li {
+    background-color: #1a8cff;
+    opacity: 0.5;
 }
 
-.jcarousel-control-next {
-    right: -7%;
-}
-
-.jcarousel-control-prev:hover,
-.jcarousel-control-next:hover {
-    opacity: 1.0;
-}
-
-.jcarousel-control-prev.inactive,
-.jcarousel-control-next.inactive {
-    opacity: .5;
-    cursor: default;
-}
-
-/** Carousel Pagination **/
-
-.jcarousel-pagination {
-    position: absolute;
-    bottom: 0;
-    left: 2.5%;
-}
-
-.jcarousel-pagination a {
-    text-decoration: none;
-    display: inline-block;
-    
-    font-size: 11px;
-    line-height: 14px;
-    min-width: 14px;
-    
-    background: #1a8cff;
-    color: #fff;
-    border-radius: 14px;
-    padding: 3px;
-    text-align: center;
-    
-    margin-right: 2px;
-    
-    opacity: .5;
-}
-
-.jcarousel-pagination a.active {
-    background: #1a8cff;
-    color: #fff;
+.carousel-indicators li.active {
+    background-color: #1a8cff;
     opacity: 1;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
 }
+
+.glyphicon {
+    text-shadow: 1px 1px 1px #1a8cff;
+
+}
+@media screen and (max-width: 768px) {
+    .experience-header {
+        font-size: 40px;
+        width: 300px;
+    }
+    
+    #carousel {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .experience-header {
+        font-size: 35px;
+        width: 280px;
+    }
+    #carousel {
+        width: 100%;
+    }
+}
+
 
 
 

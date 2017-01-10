@@ -40,27 +40,6 @@ function dropDown(){
     $(x).toggleClass("responsive");
 }
 
-// $(document).ready(function(){
-//     $(function() {
-//         $('.jcarousel').jcarousel({wrap: 'both'});
-//         $('.jcarousel-control-next').on('click', function(event){
-//             event.preventDefault();
-//             $('.jcarousel').jcarousel('scroll', '+=1');
-//         });
-//         $('.jcarousel-control-prev').on('click', function(event){
-//             event.preventDefault();
-//             $('.jcarousel').jcarousel('scroll', '-=1');
-//         });
 
-//         $('.jcarousel-pagination')
-//             .on('jcarouselpagination:active', 'a', function() {
-//                 $(this).addClass('active');
-//             })
-//             .on('jcarouselpagination:inactive', 'a', function() {
-//                 $(this).removeClass('active');
-//             })
-//             .jcarouselPagination();
-//     });
-// });
     
 

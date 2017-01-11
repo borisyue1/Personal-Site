@@ -188,7 +188,7 @@ div > span {
 }
 
 .resume-header {
-    height: 22%;
+    height: 25%;
     width: 100%;
     margin-bottom: 2%;
 }
@@ -196,8 +196,8 @@ div > span {
 .resume-header h1{
     position: relative;
     text-align: center;
-    top: 25%; 
-    margin-bottom: 50px;  
+    top: 29%; 
+    margin-bottom: 65px;  
     color: white;
     font-size: 42px;
     text-shadow: 0.5px 0.5px 2px black;
@@ -211,12 +211,125 @@ div > span {
     box-shadow: 0.5px 0.5px 1px black;
 }
 
-.skills-header {
+
+
+#skills {
+/*    display: inline-block;*/    
+    width: 40%;
+    float:left;
+    margin-left: 5%;
     margin-top: 20px;
-    width: 230px;
-    margin-left: 20px;
 }
 
+.skills-header {
+    width: 230px;
+    margin: 0px auto 40px auto;
+}
+
+
+/*skillbar*/
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+/*for the left title part
+*/
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 13px;
+    width: 110px;
+    color: #fff;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-top-left-radius: 3px;
+    -moz-border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    line-height: 35px;
+ 
+}
+
+/*animated bar
+*/
+.skillbar-bar {
+    height: 35px;
+    width: 0px;
+    margin-left: 30px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+/*the percent value on the right
+*/.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size:11px;
+    height: 35px;
+    line-height: 35px;
+    color: #404040;
+}
+
+#courses {
+/*    display: inline-block;
+*/  width: 40%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.courses-header {
+    width: 480px;
+    margin: 0 auto 40px auto;
+}
+#gpa {
+    font-size: 20px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#list-courses { 
+    width: 320px; 
+    margin: auto;
+}
+#list-courses ol { 
+    font-size: 30px; 
+    color: #1a8cff;
+}
+#list-courses ol li { 
+}
+#list-courses ol li p { 
+    color: black;
+    padding: 8px; 
+    font-size: 16px; 
+    border-left: 2px solid #999; 
+}
+#list-courses ol li p em {
+    color: black; 
+    font-weight: bold;
+    display: block; 
+}
+#list-courses ol li p em:hover {
+    color: #47418b;
+}
 
 
 

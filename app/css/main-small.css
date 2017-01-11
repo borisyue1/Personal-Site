@@ -37,19 +37,15 @@ ul.nav-bar.responsive li a {
 	margin-left: 0%;
 }
 
-#home-header {
-/*	margin-top: 30%;
-*/}
+
 .image-collage {
-	position: relative;
-	top: 0;
-	margin: 70px auto;
+	margin: auto;
 	width: 47%;
 
 }
 .about-header {
 	position: relative;
-	top: 570px;
+	top: 450px;
 	margin: auto;
 	width: 300px;
 	font-size: 40px;
@@ -64,7 +60,6 @@ ul.nav-bar.responsive li a {
 @media screen and (max-width:705px) {
     .image-collage {
         width: 50%;
-        margin-top: 60px;
     }
 }
 @media screen and (max-width:670px) {
@@ -79,8 +74,7 @@ ul.nav-bar.responsive li a {
 	
 
     .image-collage {
-        width: 54%;
-        margin-top: 70px;
+        width: 57%;
     }
 }
 @media screen and (max-width:615px) {
@@ -90,18 +84,13 @@ ul.nav-bar.responsive li a {
 		
 	}
     .image-collage {
-        width: 56%;
-        margin-top: 75px;
+        width: 62%;
     }
 }
-@media screen and (max-width:530px) {
+@media screen and (max-width:540px) {
     .image-collage {
-        width: 62%;
-        margin-top: 85px;
+        width: 74%;
     }
 }
 
-#resume {
-	top: 213%;
-}
 

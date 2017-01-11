@@ -9,11 +9,11 @@
 .image-collage {
 	left: 0;
 	width: 74%;
-	margin: 60px auto;
+	margin: auto;
 }
 
 .about-header {
-	top: 72%;
+	top: 400px;
 	left: 0;
 	margin: auto;
 	font-size: 35px;
@@ -27,6 +27,3 @@
     height: 30px;
     border-bottom: 2px solid black;
     }
-#resume {
-	top: 210%;
-}

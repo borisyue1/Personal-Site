@@ -10,9 +10,8 @@ body, html {height: 100%; font-family: "Roboto Slab", sans-serif;}
 #home {
 /*    position: absolute;
 */  margin-top: -20px;
-    left: 0;
-    height: 100%;
-    min-height: 600px;
+    height: 800px;
+    min-height: 100%;
     width: 100%;
 
 }
@@ -99,9 +98,13 @@ ul.nav-bar li.icon {
 
 #about {
 /*    position: relative;
-*//*    top: 100%; 
-*/    height: 100%;
+    top: 50;*/
+/*    top: 100%; 
+*/    
+    height: 100%;
+    min-height: 700px;
     width: 100%;
+    padding: 50px;
 
 }
 /*text in between two lines
@@ -119,8 +122,9 @@ ul.nav-bar li.icon {
 }
 
 .about-header {
-    margin-top: 170px;
-    margin-left: 54%;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 50%;
     text-align: center;
     font-size: 45px;
 
@@ -132,7 +136,7 @@ div > span {
     padding: 0 10px;
 }
 .about-header p {
-    width: 500px;
+    width: 490px;
     margin-left: -40px;
     font-size: 18px;
     text-align: left;
@@ -148,7 +152,7 @@ div > span {
     column-count: 2;
     column-gap: 0px; 
     width: 33%;
-    margin-top: -110px;
+    margin-top: 50px;
     margin-left: 13%;
 /*    rounded thumbnail */   
     border: 1px solid #bfbfbf;
@@ -167,18 +171,20 @@ div > span {
     }
     .image-collage {
         width: 40%;
-        margin-left: 6%;
+        margin-left: 5%;
     }
 }
 
 #resume {
-    position: absolute;
-    left: 0;
+/*    position: absolute;
+    left: 0;*/
 /*    top: 198%;
 */
 /*margin-top: 50px;    
-*/height: 100%;
+*/  height: 100%;
+    min-height: 700px;
     width: 100%;
+    padding: 0.1px;
 }
 
 .resume-header {

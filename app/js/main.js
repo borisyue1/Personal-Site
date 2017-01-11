@@ -1,9 +1,11 @@
 
+var $root = $('html, body');
+
 $('a[href^="#"]').on('click', function(event) {//smooth scrolling
     var target = $(this.getAttribute('href'));
     if( target.length) {
         event.preventDefault();
-        $('html, body').stop().animate({
+        $root.stop().animate({
             scrollTop: target.offset().top}, 1000);
     }
 });

@@ -1,7 +1,15 @@
 
 var $root = $('html, body');
 
-$('a[href^="#"]').on('click', function(event) {//smooth scrolling
+$('.nav-bar a[href^="#"]').on('click', function(event) {//smooth scrolling
+    var target = $(this.getAttribute('href'));
+    if( target.length) {
+        event.preventDefault();
+        $root.stop().animate({
+            scrollTop: target.offset().top}, 1000);
+    }
+});
+$('#home-header a[href^="#"]').on('click', function(event) {//for arrow icon
     var target = $(this.getAttribute('href'));
     if( target.length) {
         event.preventDefault();
@@ -63,7 +71,7 @@ function animateSkillBar(){
 function animateCourseList(){
     $('#list-courses ol li').each(function(i){
         var $t = $(this);
-        setTimeout(function(){ $t.addClass('list-fade-in'); }, (i+1) * 120);
+        setTimeout(function(){ $t.addClass('list-fade-in'); }, (i+1) * 150);
     });
 }
 

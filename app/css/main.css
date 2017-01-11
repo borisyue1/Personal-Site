@@ -181,42 +181,48 @@ div > span {
 /*    top: 198%;
 */
 /*margin-top: 50px;    
-*/  height: 100%;
+*/
     min-height: 700px;
     width: 100%;
     padding: 0.1px;
 }
 
+
 .resume-header {
-    height: 25%;
+    height: 180px;
     width: 100%;
     margin-bottom: 2%;
 }
 
-.resume-header h1{
-    position: relative;
+
+.gradient-header {
     text-align: center;
-    top: 29%; 
-    margin-bottom: 65px;  
+    text-shadow: 0.5px 0.5px 2px black;
     color: white;
     font-size: 42px;
-    text-shadow: 0.5px 0.5px 2px black;
+}
+.resume-header h1{
+    position: relative;
+    top: 29%;
+    margin-bottom: 60px;  
 }
 
-.resume-header hr {
+.resume-header hr, .contact-header hr {
     position: relative;
     width: 70px;
     height: 3px;
-    background:white;
+    background: white;
     box-shadow: 0.5px 0.5px 1px black;
 }
 
-.row {
-    margin-top: 55px;
+.resume-row {
+    width: 100%;
+    margin-top: 68px;
+    overflow: auto;
 }
 
 #skills {
-/*    display: inline-block;*/    
+/*    display: inline-block;*/ 
     width: 40%;
     float: left;
     margin-left: 6%;
@@ -273,7 +279,7 @@ div > span {
 .skillbar-bar {
     height: 35px;
     width: 0px;
-    margin-left: 30px;
+    margin-left: 40px;
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -294,6 +300,7 @@ div > span {
 /*    display: inline-block;
 */  width: 40%;
     float: left;
+    position: relative;
     margin-top: 20px;
     margin-left: 5%;
 }
@@ -345,8 +352,83 @@ div > span {
 }
 
 .list-fade-in {
-    animation: fade-in 0.7s;
+    animation: fade-in 2s;
     opacity: 1.0 !important;
+}
+
+#contact {
+    width: 100%;
+    height: 220px;
+    margin-top: 40px;
+    padding: 15px;
+
+}
+.contact-header h1 {
+    margin-top: 10px;
+    font-size: 44px;
+}
+
+.contact-header hr{
+    margin-top: 7px;
+    width: 80px;
+}
+
+#contact-buttons-row {
+    overflow: hidden;
+    width: 260px;
+    margin: 25px auto 0 auto;
+}
+
+/*.contact-buttons-container {
+    overflow: hidden;
+}*/
+
+#first-button {
+    float: left;
+    overflow: hidden;
+/*    margin-left: 27%;
+*/}
+
+#second-button {
+    float: left;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.contact-buttons {
+    float: left;
+    color: white;
+    font-size: 18px;
+    width: 110px;
+    padding: 7px 0;
+    text-align: center;
+    border: 2px solid white;
+    box-shadow: 0.5px 0.5px  black;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    text-decoration: none !important;
+}
+
+/*get rid of annoying bootstrap color change when clicked
+*/.contact-buttons:visited {
+    color:white;
+}
+
+.contact-buttons:hover {
+    text-decoration: none;
+    background: white;
+    color: #514A9D;
+}
+
+#copyright-row {
+    width: 100%;
+}
+
+#copyright {
+    margin-top: 15px;
+    text-align: center; 
+    color: white;
 }
 
 

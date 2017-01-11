@@ -32,6 +32,9 @@
 .skills-header {
 	width: 180px;
 }
+.skill-bar-percent {
+	right: 5px;
+}
 .courses-header {
 	width: 340px;
 }

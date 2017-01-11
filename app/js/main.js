@@ -31,9 +31,15 @@ function checkPosition(stop, mainbottom){
     }
     else if(stop > mainbottom * 2 - 70){
         $('#resume-tag').addClass('active');
+        if($(window).width() <= 935 && stop > mainbottom * 3) {
+            animateCourseList();//for when skills and courses become stacked
+        }
         // to animate skillbar
-        if(stop > mainbottom * 2){
+        if(stop > mainbottom * 2 + 50){
             animateSkillBar();
+            if($(window).width() > 935) {
+                animateCourseList();
+            }
         }
     } 
     else if(stop > mainbottom - 50){
@@ -50,7 +56,14 @@ function animateSkillBar(){
     $('.skillbar').each(function(){
         $(this).find('.skillbar-bar').animate({
             width: $(this).attr('data-percent')
-        }, 3000);
+        }, 2000);
+    });
+}
+
+function animateCourseList(){
+    $('#list-courses ol li').each(function(i){
+        var $t = $(this);
+        setTimeout(function(){ $t.addClass('list-fade-in'); }, (i+1) * 120);
     });
 }
 

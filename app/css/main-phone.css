@@ -12,11 +12,13 @@
 	margin: auto;
 }
 
+.header {
+	font-size: 35px;
+}
 .about-header {
 	top: 400px;
 	left: 0;
 	margin: auto;
-	font-size: 35px;
 	width: 280px;
 }
 .about-header p {
@@ -26,4 +28,17 @@
 .two-lines {
     height: 30px;
     border-bottom: 2px solid black;
-    }
+}
+.skills-header {
+	width: 180px;
+}
+.courses-header {
+	width: 340px;
+}
+#list-courses {
+	margin-left: 7%;
+}
+
+#gpa {
+	margin-left: 18%;
+}

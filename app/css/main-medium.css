@@ -1,4 +1,6 @@
-
+.header {
+	font-size: 42px;
+}
 
 .image-collage {
 	margin-left: 5%;
@@ -8,12 +10,50 @@
 .about-header {
 	margin-top: 100px;
 	width: 320px;
-	font-size: 42px;
 }
 .about-header p {
 	width: 420px;
 }
 
+
+.row {
+	margin-top: 10px;
+}
+.skills-header {
+	width: 200px;
+}
+.courses-header {
+	width: 450px;
+}
+
+#skills, #courses {
+	width: 350px;
+}
+#skills {
+	margin-left: 8%;
+}
+
+#list-courses {
+	margin-left: 8%;
+}
+/*stacking skills on courses
+*/
+@media screen and (max-width:935px) {
+	#skills, #courses {
+		clear: both;
+	}
+	#skills {
+		width: 72%;
+		margin-left: 14%;
+	}
+	#courses {
+		width: 60%;
+		margin-left: 21%;
+	}
+	#list-courses {
+		margin-left: 18%;
+	}
+}
 
 @media screen and (max-width:870px) {
 	.about-header {
@@ -31,5 +71,3 @@
         margin-left: 2%;
     }
 }
-
-

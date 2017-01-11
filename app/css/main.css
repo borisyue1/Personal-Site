@@ -211,13 +211,15 @@ div > span {
     box-shadow: 0.5px 0.5px 1px black;
 }
 
-
+.row {
+    margin-top: 55px;
+}
 
 #skills {
 /*    display: inline-block;*/    
     width: 40%;
-    float:left;
-    margin-left: 5%;
+    float: left;
+    margin-left: 6%;
     margin-top: 20px;
 }
 
@@ -314,8 +316,11 @@ div > span {
     font-size: 30px; 
     color: #1a8cff;
 }
-#list-courses ol li { 
+/*for animation*/
+#list-courses ol li {
+    opacity: 0.0;
 }
+
 #list-courses ol li p { 
     color: black;
     padding: 8px; 
@@ -329,6 +334,19 @@ div > span {
 }
 #list-courses ol li p em:hover {
     color: #47418b;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0.0;
+    } to {
+        opacity: 1.0;
+    }
+}
+
+.list-fade-in {
+    animation: fade-in 0.7s;
+    opacity: 1.0 !important;
 }
 
 

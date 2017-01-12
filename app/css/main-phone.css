@@ -1,4 +1,7 @@
 
+#home-header {
+
+}
 
 /*when screen is small, edit boris yue title
 */#name {
@@ -46,3 +49,9 @@
 #gpa {
 	margin-left: 18%;
 }
+@media screen and (max-width:430px) {
+
+    .image-collage {
+        width: 85%;
+    }
+

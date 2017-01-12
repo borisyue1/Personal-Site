@@ -49,9 +49,10 @@
 #gpa {
 	margin-left: 18%;
 }
+
 @media screen and (max-width:430px) {
 
     .image-collage {
         width: 85%;
-    }
+}
 

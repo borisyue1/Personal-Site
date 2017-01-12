@@ -43,7 +43,7 @@ function checkPosition(stop, mainbottom){
             animateCourseList();//for when skills and courses become stacked
         }
         // to animate skillbar
-        if(stop > mainbottom * 2 + 50){
+        if(stop > mainbottom * 2 + 100){
             animateSkillBar();
             if($(window).width() > 935) {
                 animateCourseList();

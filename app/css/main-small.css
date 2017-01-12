@@ -84,6 +84,9 @@ ul.nav-bar.responsive li a {
     }
 }
 @media screen and (max-width:670px) {
+	#about {
+		height: 97%;
+	}
 	.about-header {
 		width: 280px;
 		

@@ -3,16 +3,21 @@
 }
 
 .image-collage {
+	margin-top: 80px;
 	margin-left: 5%;
 	width: 42%;
 
 }
+
+#about {
+}
 .about-header {
-	margin-top: 100px;
+	margin-top: 130px;
 	width: 320px;
 }
 .about-header p {
 	width: 420px;
+	margin-left: -40px;
 }
 
 
@@ -58,16 +63,17 @@
 @media screen and (max-width:870px) {
 	.about-header {
 		margin-left: 48%;
-		margin-top: 70px;
+		margin-top: 140px;
 		font-size: 41px;
 	}
     .about-header p {
         width: 360px;
-        margin-left: -20px;
+        margin-left: -10px;
         font-size: 16px;
     }
     .image-collage {
         width: 46%;
+        margin-top: 100px;
         margin-left: 2%;
     }
 }

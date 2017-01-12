@@ -37,7 +37,7 @@ function checkPosition(stop, mainbottom){
     if(stop < mainbottom - 50){
         $('#home-tag').addClass('active');
     }
-    else if(stop > mainbottom * 2 - 70){
+    else if(stop > mainbottom * 2 - 130){
         $('#resume-tag').addClass('active');
         if($(window).width() <= 935 && stop > mainbottom * 3) {
             animateCourseList();//for when skills and courses become stacked
